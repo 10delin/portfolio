@@ -1,11 +1,9 @@
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import Home from "../../pages/Home/Home";
 
 const Main = () => {
   return (
     <div>
-      <Header />
-      <Footer />
+      <Home />
     </div>
   );
 };
