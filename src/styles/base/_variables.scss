@@ -1,0 +1,30 @@
+$c-text-primary: #010244;
+$c-text-primary-hover: #0004ec;
+$c-text-title-name: #00012e;
+
+$c-background-body: #f5f5f5;
+$c-background-hover: #f5f5f5;
+
+// BREAKPOINTS
+// Small screen / phone
+$bp-mobile: 599px;
+// Medium screen / tablet
+$bp-tablet: 768px;
+// Large screen / tablet portrait
+$bp-desktop: 1024px;
+// Large screen / desktop
+$bp-desktop-medium: 1200px;
+// Extra large screen / wide desktop
+$bp-desktop-large: 1440px;
+// Extra extra large screen / extra wide desktop
+$bp-desktop-extra-large: 1680px;
+
+// Breakpoints in the form (name: length)
+$breakpoints: (
+  mobile: $bp-mobile,
+  tablet: $bp-tablet,
+  desktop: $bp-desktop,
+  desktop-medium: $bp-desktop-medium,
+  desktop-large: $bp-desktop-large,
+  desktop-extra-large: $bp-desktop-extra-large,
+) !default;

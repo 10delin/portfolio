@@ -3,7 +3,13 @@
 @import "./base/typography";
 @import "./base/icons";
 @import "./base/fonts";
+@import "./base/layout";
+@import "./base/mixins";
 
 //import Components
+@import "./components/header";
+@import "./components/footer";
 
 //import Pages
+
+@import "./pages/Home";

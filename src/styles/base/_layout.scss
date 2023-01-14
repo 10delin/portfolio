@@ -1,0 +1,19 @@
+html,
+body {
+  color: black;
+  height: 100%;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+html {
+  &.blocked {
+    body {
+      overflow: hidden;
+    }
+  }
+}
+
+.main {
+  min-height: 100vh;
+}
