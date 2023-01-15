@@ -1,0 +1,12 @@
+.under-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $c-under-footer;
+  color: $c-white;
+
+  p {
+    margin: 2px;
+    font-size: 13px;
+  }
+}
