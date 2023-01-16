@@ -95,6 +95,33 @@ export const iconContact = [
   },
 ];
 
+export const EXPERIENCES = [
+  {
+    id: 1,
+    position: "Frontend Developer",
+    company: "The WhiteTeam",
+    date: "jul.2022 - Present",
+    description:
+      "- Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS. Dentro de ReactJS se usa React Hooks, React Query, React Redux, React Router y React DOM. Maquetación con SASS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia SCRUM. Uso de API Fetch y REST. Control de versiones mediante GIT y Bitbucket.",
+  },
+  {
+    id: 2,
+    position: "Junior Frontend Developer",
+    company: "Digital Cuisine",
+    date: "jun.2021 - jun.2022",
+    description:
+      "-Se modifica proyecto de la asociación Madre Coraje, donde se añaden/modifican paginas y se crea un mapa interactivo, todo creado con ReactJS. Se usan React Hooks, Leaflet y NodeJS. Maquetación con CSS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia KANVAN. Control de versiones con Git y Github",
+  },
+  {
+    id: 3,
+    position: "Junior Frontend Developer",
+    company: "Digital Cuisine",
+    date: "mar.2021 - jun.2021",
+    description:
+      "-Resolucion de tickets en la pagina del Covid del Gobierno Aleman. Resolucion de tickets de JavaScript, maquetacion con HTML5 y CSS3 en páginas nuevas y páginas ya existentes. Control de versiones con GIT.",
+  },
+];
+
 export const sendIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"

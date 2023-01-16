@@ -15,8 +15,8 @@ const MainDescription = () => {
             Tu aplicación web con las mejores tecnologías.
           </p>
           <button className="main-description__button">
-            <div class="svg-wrapper-1">
-              <div class="svg-wrapper">{sendIcon}</div>
+            <div className="svg-wrapper-1">
+              <div className="svg-wrapper">{sendIcon}</div>
             </div>
             <span>Mandar un mensaje</span>
           </button>

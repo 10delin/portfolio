@@ -1,0 +1,110 @@
+.experience {
+  margin-top: 100px;
+  width: 100%;
+
+  &__title {
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: $c-text-primary;
+    align-items: center;
+    &__line {
+      width: 100%;
+      height: 2px;
+      background: #c9c9c9;
+      margin-left: 2rem;
+      margin-bottom: 17px;
+    }
+  }
+
+  &__ringring {
+    border: 3px solid #02c4ff;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: -5px;
+    top: -7px;
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+  }
+  @keyframes pulsate {
+    0% {
+      -webkit-transform: scale(0.1, 0.1);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1.2, 1.2);
+      opacity: 0;
+    }
+  }
+
+  ul,
+  li {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  &__wrapper {
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+
+  &__item {
+    margin-top: 2rem;
+    border-radius: 12px;
+    position: relative;
+  }
+
+  li {
+    padding-bottom: 1.5rem;
+    border-left: 2px solid #b6b6b6;
+    position: relative;
+    padding-left: 50px;
+    margin-left: 10px;
+    &:last-child {
+      border: 0px;
+      padding-bottom: 0;
+      &:before {
+        left: -8.5px;
+      }
+    }
+    &:before {
+      content: "";
+      width: 17px;
+      height: 17px;
+      background: $c-text-primary-hover;
+      border-radius: 50%;
+      position: absolute;
+      left: -10px;
+      top: 0px;
+    }
+  }
+
+  &__job {
+    color: #2a2839;
+    font-weight: 600;
+  }
+
+  &__company {
+    color: #808080;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  p {
+    line-height: 1.5;
+    margin-top: 0.4rem;
+  }
+}
