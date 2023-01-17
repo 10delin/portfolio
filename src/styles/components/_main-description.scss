@@ -129,13 +129,19 @@
     background-size: 200%;
     background-position: 88% 0px;
     img {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      max-width: 510px;
-      min-width: 510px;
-      object-position: -3px 0px;
-      backdrop-filter: blur(1px);
+      display: none;
+      @include breakpoint(desktop) {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        min-width: 525px;
+        object-position: -5px 2px;
+      }
+      @include breakpoint(desktop-extra-large) {
+        min-width: 320px;
+        max-width: 450px;
+      }
     }
   }
 
