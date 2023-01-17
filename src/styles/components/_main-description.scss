@@ -124,11 +124,8 @@
     min-width: 350px;
     border: 2px solid rgb(156, 156, 156);
     border-radius: 10%;
-    background-image: linear-gradient(
-      to right,
-      rgb(18 17 17 / 9%),
-      rgb(75 255 0 / 53%)
-    );
+    background-image: url(../../assets/images/wallpaper1.jpg);
+    background-size: cover;
     img {
       position: absolute;
       bottom: 0;
