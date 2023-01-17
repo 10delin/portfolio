@@ -124,8 +124,10 @@
     min-width: 350px;
     border: 2px solid rgb(156, 156, 156);
     border-radius: 10%;
-    background-image: url(../../assets/images/wallpaper1.jpg);
+    background-image: url(../../assets/images/1.webp);
     background-size: cover;
+    background-size: 200%;
+    background-position: 88% 0px;
     img {
       position: absolute;
       bottom: 0;
@@ -133,6 +135,7 @@
       max-width: 510px;
       min-width: 510px;
       object-position: -3px 0px;
+      backdrop-filter: blur(1px);
     }
   }
 
