@@ -1,3 +1,4 @@
+import Certificate from "../../components/Certificate/Certificate";
 import Experience from "../../components/Experience/Experience";
 import MainDescription from "../../components/MainDescription/MainDescription";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div className="home">
       <MainDescription />
       <Experience />
+      <Certificate />
     </div>
   );
 };
