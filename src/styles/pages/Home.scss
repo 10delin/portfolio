@@ -1,7 +1,12 @@
 .home {
   display: block;
   position: relative;
-  padding: 0 15%;
+  padding: $padding-mobile;
   padding-top: 200px;
   z-index: 0;
+
+  @include breakpoint(desktop-medium) {
+    padding: $padding-desktop;
+    padding-top: 200px;
+  }
 }

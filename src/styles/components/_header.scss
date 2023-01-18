@@ -5,15 +5,19 @@
   background-color: white;
 
   &__content {
-    padding: 0 8px;
+    padding: $padding-mobile;
     display: flex;
     align-items: center;
     box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.1);
     border-radius: 3px;
 
     @include breakpoint(tablet) {
-      padding: 0 15%;
+      padding: $padding-mobile;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    @include breakpoint(desktop-medium) {
+      padding: $padding-desktop;
     }
   }
 
