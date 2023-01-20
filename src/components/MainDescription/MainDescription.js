@@ -1,10 +1,10 @@
-import profileImage from "../../assets/images/profile.png";
+import profileImage from "../../assets/images/profile.webp";
 import { iconWorks } from "../../utils/model";
 import { sendIcon } from "../../utils/model";
 
 const MainDescription = () => {
   return (
-    <div className="main-description">
+    <div id="main" className="main-description">
       <div className="main-description__content-picture">
         <div className="main-description__content">
           <p className="main-description__subtitle">WEB FRONTEND DEVELOPER</p>
@@ -26,7 +26,7 @@ const MainDescription = () => {
         </div>
       </div>
       <div className="main-description__works">
-        <p className="main-description__works__title">Experiencia en:</p>
+        <p className="main-description__works__title">Aptitudes tecnicas: </p>
         <div className="main-description__works__content">
           <div className="main-description__works__content__item">
             {iconWorks.map((icon, index) => {
