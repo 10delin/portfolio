@@ -4,6 +4,7 @@ const About = () => {
   return (
     <div>
       <TitleArea title="Sobre mí" />
+      <p> prueba</p>
     </div>
   );
 };
