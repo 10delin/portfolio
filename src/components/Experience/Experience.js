@@ -1,13 +1,11 @@
 import React from "react";
 import { EXPERIENCES } from "../../utils/model";
+import TitleArea from "../TitleArea/TitleArea";
 
 const Experience = () => {
   return (
-    <div className="experience">
-      <div className="experience__title">
-        <p>Experiencia</p>
-        <div className="experience__title__line"></div>
-      </div>
+    <div id="experience" className="experience">
+      <TitleArea title="Experiencia" />
       <div className="experience__container">
         <div className="experience__wrapper">
           <ul className="experience__item">
