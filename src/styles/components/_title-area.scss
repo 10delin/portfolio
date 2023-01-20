@@ -1,0 +1,20 @@
+.title-area {
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: $c-text-primary;
+  align-items: center;
+
+  p {
+    min-width: 25%;
+  }
+
+  &__line {
+    width: 100%;
+    height: 2px;
+    background: #c9c9c9;
+    margin-left: 32px;
+    margin-top: 10px;
+  }
+}
