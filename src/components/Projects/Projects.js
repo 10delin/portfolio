@@ -18,7 +18,7 @@ const Projects = () => {
               <img src={project.image} alt={project.image} />
               <div className="projects__content__project--title">
                 <h2>{project.title}</h2>
-                <h5> HSBC UK</h5>
+                <h5> {project.subtitle}</h5>
                 <p>{project.description}</p>
               </div>
             </a>
