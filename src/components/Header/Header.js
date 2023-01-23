@@ -1,9 +1,11 @@
+import ContributeGithub from "../ContributeGithub/ContributeGithub";
+
 const Header = () => {
   return (
     <header className="header">
       <div className="header__content">
         <div className="header__title">
-          <p>Antonio Delage</p>
+          <p>Antonio Delage Cruzado</p>
         </div>
         <div className="header__description">
           <p className="header__description__items">
@@ -16,6 +18,7 @@ const Header = () => {
             <a href="#projects">Proyectos</a>
           </p>
         </div>
+        <ContributeGithub />
       </div>
     </header>
   );
