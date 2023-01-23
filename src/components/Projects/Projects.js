@@ -4,7 +4,7 @@ import { PROJECTS } from "../../utils/model";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <TitleArea title="Proyectos" />
       <div className="projects__content">
         {PROJECTS.map((project) => {

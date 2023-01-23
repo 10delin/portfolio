@@ -48,6 +48,7 @@
 
     &__items {
       margin-right: 10px;
+      position: relative;
       a {
         padding: 27px 15px;
         text-decoration: none;
@@ -55,9 +56,26 @@
         font-size: 1.2rem;
         font-weight: 600;
         transition: color 0.3s;
+        &::after {
+          background: none repeat scroll 0 0 transparent;
+          bottom: -27px;
+          content: "";
+          display: block;
+          height: 2px;
+          left: 50%;
+          position: absolute;
+          background: $c-text-primary;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          width: 0;
+        }
         &:hover {
           background-color: $c-background-hover;
           color: $c-text-primary-hover;
+        }
+
+        &:hover::after {
+          width: 100%;
+          left: 0;
         }
       }
     }

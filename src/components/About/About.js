@@ -2,7 +2,7 @@ import TitleArea from "../TitleArea/TitleArea";
 
 const About = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <TitleArea title="Sobre mí" />
       <div className="about__content">
         <p>
