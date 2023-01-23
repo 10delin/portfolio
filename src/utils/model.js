@@ -1,3 +1,7 @@
+import imageProject1 from "../assets/images/project1.png";
+import imageProject2 from "../assets/images/project2.png";
+import imageProject3 from "../assets/images/project3.png";
+
 export const iconWorks = [
   {
     id: 1,
@@ -136,3 +140,33 @@ export const sendIcon = (
     ></path>
   </svg>
 );
+
+export const PROJECTS = [
+  {
+    id: 1,
+    image: imageProject1,
+    title: "Financial Assessment",
+    subtitle: "The WhiteTeam - HSBC UK ",
+    description:
+      "Modificacion de la pagina de calculo financiero del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
+    link: "https://financialfitness.hsbc.co.uk/",
+  },
+  {
+    id: 2,
+    image: imageProject2,
+    title: "Sustanability Assessment",
+    subtitle: "The WhiteTeam - HSBC UK ",
+    description:
+      "Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
+    link: "https://sustainabilityassessment.business.hsbc.com/en-gb/",
+  },
+  {
+    id: 3,
+    image: imageProject3,
+    title: "Corona Warn App",
+    subtitle: "Digital Cuisine - Gobierno Aleman",
+    description:
+      "Modificacion de la pagina del Covid del Gobierno Aleman. Desarrollo de la aplicación con Javascript, HTML5, CSS3",
+    link: "https://www.coronawarn.app/en/",
+  },
+];

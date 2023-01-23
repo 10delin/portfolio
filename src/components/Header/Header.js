@@ -13,7 +13,7 @@ const Header = () => {
             <a href="#about">Sobre mí</a>
           </p>
           <p className="header__description__items">
-            <a href="#contact">Contacto</a>
+            <a href="#projects">Proyectos</a>
           </p>
         </div>
       </div>
