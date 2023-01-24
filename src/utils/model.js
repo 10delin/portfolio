@@ -1,6 +1,8 @@
 import imageProject1 from "../assets/images/project1.png";
 import imageProject2 from "../assets/images/project2.png";
 import imageProject3 from "../assets/images/project3.png";
+import imageStudios from "../assets/images/estudios.png";
+import imageStudios2 from "../assets/images/estudios2.png";
 
 export const iconWorks = [
   {
@@ -102,27 +104,27 @@ export const iconContact = [
 export const EXPERIENCES = [
   {
     id: 1,
-    position: "Frontend Developer",
-    company: "The WhiteTeam",
-    date: "julio.2022 - Actualidad",
-    description:
-      "- Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS. Dentro de ReactJS se usa React Hooks, React Query, React Redux, React Router y React DOM. Maquetación con SASS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia SCRUM. Uso de API Fetch y REST. Control de versiones mediante GIT y Bitbucket.",
+    position: "experience.item1.position",
+    company: "experience.item1.company",
+    date: "experience.item1.date",
+    description: "experience.item1.description",
+    actual: true,
   },
   {
     id: 2,
-    position: "Junior Frontend Developer",
-    company: "Digital Cuisine",
-    date: "junio.2021 - junio.2022",
-    description:
-      "-Se modifica proyecto de la asociación Madre Coraje, donde se añaden/modifican paginas y se crea un mapa interactivo, todo creado con ReactJS. Se usan React Hooks, Leaflet y NodeJS. Maquetación con CSS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia KANVAN. Control de versiones con Git y Github",
+    position: "experience.item2.position",
+    company: "experience.item2.company",
+    date: "experience.item2.date",
+    description: "experience.item2.description",
+    actual: false,
   },
   {
     id: 3,
-    position: "Junior Frontend Developer",
-    company: "Digital Cuisine",
-    date: "marzo.2021 - junio.2021",
-    description:
-      "-Resolucion de tickets en la pagina del Covid del Gobierno Aleman. Resolucion de tickets de JavaScript, maquetacion con HTML5 y CSS3 en páginas nuevas y páginas ya existentes. Control de versiones con GIT.",
+    position: "experience.item3.position",
+    company: "experience.item3.company",
+    date: "experience.item3.date",
+    description: "experience.item3.description",
+    actual: false,
   },
 ];
 
@@ -141,32 +143,46 @@ export const sendIcon = (
   </svg>
 );
 
+export const EDUCATION = [
+  {
+    id: 1,
+    title: "education.item1.title",
+    center: "education.item1.center",
+    date: "education.item1.date",
+    image: imageStudios2,
+  },
+  {
+    id: 2,
+    title: "education.item2.title",
+    center: "education.item2.center",
+    date: "education.item2.date",
+    image: imageStudios,
+  },
+];
+
 export const PROJECTS = [
   {
     id: 1,
     image: imageProject1,
-    title: "Financial Assessment",
-    subtitle: "The WhiteTeam - HSBC UK ",
-    description:
-      "Modificacion de la pagina de calculo financiero del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
-    link: "https://financialfitness.hsbc.co.uk/",
+    title: "projects.item1.title",
+    subtitle: "projects.item1.subtitle",
+    description: "projects.item1.description",
+    link: "projects.item1.link",
   },
   {
     id: 2,
     image: imageProject2,
-    title: "Sustanability Assessment",
-    subtitle: "The WhiteTeam - HSBC UK ",
-    description:
-      "Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
-    link: "https://sustainabilityassessment.business.hsbc.com/en-gb/",
+    title: "projects.item2.title",
+    subtitle: "projects.item2.subtitle",
+    description: "projects.item2.description",
+    link: "projects.item2.link",
   },
   {
     id: 3,
     image: imageProject3,
-    title: "Corona Warn App",
-    subtitle: "Digital Cuisine - Gobierno Aleman",
-    description:
-      "Modificacion de la pagina del Covid del Gobierno Aleman. Desarrollo de la aplicación con Javascript, HTML5, CSS3",
-    link: "https://www.coronawarn.app/en/",
+    title: "projects.item3.title",
+    subtitle: "projects.item3.subtitle",
+    description: "projects.item3.description",
+    link: "projects.item3.link",
   },
 ];
