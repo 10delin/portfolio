@@ -15,7 +15,7 @@
     align-items: left;
     width: 100%;
     min-width: 410px;
-    margin-right: 126px;
+    margin-right: 150px;
   }
 
   &__name {
@@ -140,7 +140,7 @@
       }
       @include breakpoint(desktop-extra-large) {
         min-width: 320px;
-        max-width: 450px;
+        max-width: 470px;
       }
     }
   }
