@@ -1,24 +1,20 @@
-import React from "react";
 import { EXPERIENCES } from "../../utils/model";
+import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import TitleArea from "../TitleArea/TitleArea";
 
-const Experience = () => {
+const Experience = ({ t }) => {
   return (
     <div id="experience" className="experience">
-      <TitleArea title="Experiencia" />
+      <TitleArea title={t("experience.title")} />
       <div className="experience__container">
         <div className="experience__wrapper">
           <ul className="experience__item">
-            {EXPERIENCES.map((experience, index) => (
-              <React.Fragment key={index}>
-                {index === 0 && <div className="experience__ringring"></div>}
-                <li key={experience.id}>
-                  <div className="experience__job">{experience.position}</div>
-                  <p className="experience__company">{experience.company}</p>
-                  <p>{experience.date}</p>
-                  <p>{experience.description} </p>
-                </li>
-              </React.Fragment>
+            {EXPERIENCES.map((experience) => (
+              <ExperienceItem
+                key={experience.id}
+                t={t}
+                experience={experience}
+              />
             ))}
           </ul>
         </div>

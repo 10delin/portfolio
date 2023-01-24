@@ -1,29 +1,31 @@
 import { iconSocial } from "../../utils/model";
 import { iconContact } from "../../utils/model";
 import UnderFooter from "../UnderFooter/UnderFooter";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <>
       <footer className="footer">
         <div className="footer__content">
           <div className="footer__main">
-            <p className="footer__main__title">Antonio Delage</p>
-            <p>Página web de código abierto realizada con ReactJS.</p>
+            <p className="footer__main__title">{t("footer.title")}</p>
+            <p>{t("footer.subtitle")}</p>
             <p className="footer__main__link">
               <a
                 href="https://github.com/10delin/portfolio"
                 target="_blank"
                 rel="noreferrer"
               >
-                Link al repositorio en GitHub
+                {t("footer.link")}
               </a>
             </p>
           </div>
         </div>
 
         <div className="footer__content">
-          <p>Contáctame:</p>
+          <p>{t("footer.contact")}</p>
           <div className="footer__contact">
             {iconContact.map((icon, index) => {
               return (
@@ -42,7 +44,7 @@ const Footer = () => {
         </div>
 
         <div className="footer__content">
-          <p>Sigueme en:</p>
+          <p>{t("footer.follow")}</p>
           <div className="footer__social">
             {iconSocial.map((icon, index) => {
               return (

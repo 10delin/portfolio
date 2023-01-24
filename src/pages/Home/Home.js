@@ -5,15 +5,18 @@ import Experience from "../../components/Experience/Experience";
 import MainDescription from "../../components/MainDescription/MainDescription";
 import Projects from "../../components/Projects/Projects";
 
+import { useTranslation } from "react-i18next";
+
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <div className="home">
-      <MainDescription />
-      <Experience />
-      <Certificate />
-      <About />
-      <Education />
-      <Projects />
+      <MainDescription t={t} />
+      <Experience t={t} />
+      <Certificate t={t} />
+      <About t={t} />
+      <Education t={t} />
+      <Projects t={t} />
     </div>
   );
 };

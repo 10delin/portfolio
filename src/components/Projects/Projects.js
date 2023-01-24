@@ -1,29 +1,16 @@
 import TitleArea from "../TitleArea/TitleArea";
 
 import { PROJECTS } from "../../utils/model";
+import ProjectItem from "../ProjectItem/ProjectItem";
 
-const Projects = () => {
+const Projects = ({ t }) => {
   return (
     <div id="projects" className="projects">
-      <TitleArea title="Proyectos" />
+      <TitleArea title={t("projects.title")} />
       <div className="projects__content">
-        {PROJECTS.map((project) => {
-          return (
-            <a
-              className="projects__content__project"
-              href={project.link}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={project.image} alt={project.image} />
-              <div className="projects__content__project--title">
-                <h2>{project.title}</h2>
-                <h5> {project.subtitle}</h5>
-                <p>{project.description}</p>
-              </div>
-            </a>
-          );
-        })}
+        {PROJECTS.map((project) => (
+          <ProjectItem key={project.id} t={t} project={project} />
+        ))}
       </div>
     </div>
   );

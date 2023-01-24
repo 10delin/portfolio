@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ContributeGithub = () => {
+const ContributeGithub = ({ t }) => {
   const [isPressed, setIsPressed] = useState(false);
 
   if (!isPressed) {
@@ -12,7 +12,7 @@ const ContributeGithub = () => {
           rel="noreferrer"
           onClick={() => setIsPressed(!isPressed)}
         >
-          <span>Contribuye en Github</span>
+          <span>{t("contributeGitHub")}</span>
           <img
             src="https://img.icons8.com/color/48/000000/github.png"
             alt="github"
