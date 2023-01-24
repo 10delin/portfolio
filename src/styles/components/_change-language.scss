@@ -1,0 +1,41 @@
+.change-language {
+  display: flex;
+  position: absolute;
+  bottom: -70px;
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+  box-shadow: 0 8px 24px -17px #000101;
+  z-index: 1;
+
+  &__button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 15px;
+    width: 100%;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #7ccdff;
+    }
+    img {
+      width: 30px;
+    }
+  }
+
+  &__button--active {
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 15px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #b4daf1;
+
+    img {
+      width: 30px;
+    }
+  }
+}

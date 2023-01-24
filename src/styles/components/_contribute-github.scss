@@ -1,0 +1,29 @@
+.contribute-github {
+  position: absolute;
+  bottom: -42px;
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #0f104d;
+    background-color: #f5f5f5;
+    border: 1px solid #afafaf;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 8px 24px -17px #000101;
+
+    img {
+      width: 30px;
+    }
+
+    &:hover {
+      background-color: #b4daf1;
+    }
+  }
+
+  span {
+    margin-right: 5px;
+  }
+}
