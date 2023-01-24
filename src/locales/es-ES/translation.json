@@ -1,5 +1,97 @@
 {
     "header":{
-        "name": "Antonio Delage Cruzadoo ES"
+        "name": "Antonio Delage Cruzado",
+        "experience": "Experiencia",
+        "about": "Sobre mí",
+        "projects": "Proyectos"
+    },
+
+    "mainDescription":{
+        "subtitle": "DESARROLLADOR WEB FRONTEND",
+        "name": "Hola, soy Antonio Delage, contactame para crear",
+        "title": "Tu aplicación web con las mejores tecnologías.",
+        "sendMessage": "Enviar mensaje",
+        "worksTechnology": "Aptitudes tecnicas : "
+    },
+
+    "experience":{
+        "title":"Experiencia",
+        "item1":{
+            "position": "Frontend Developer",
+            "company": "The WhiteTeam",
+            "date": "julio.2022 - Actualidad",
+            "description":"- Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS. Dentro de ReactJS se usa React Hooks, React Query, React Redux, React Router y React DOM. Maquetación con SASS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia SCRUM. Uso de API Fetch y REST. Control de versiones mediante GIT y Bitbucket."
+        },
+        "item2":{
+            "position": "Junior Frontend Developer",
+            "company": "Digital Cuisine",
+            "date": "junio.2021 - junio.2022",
+            "description":"-Se modifica proyecto de la asociación Madre Coraje, donde se añaden/modifican paginas y se crea un mapa interactivo, todo creado con ReactJS. Se usan React Hooks, Leaflet y NodeJS. Maquetación con CSS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia KANVAN. Control de versiones con Git y Github."
+        },
+        "item3":{
+            "position": "Junior Frontend Developer",
+            "company": "Digital Cuisine",
+            "date": "marzo.2021 - junio.2021",
+            "description":"-Resolucion de tickets en la pagina del Covid del Gobierno Aleman. Resolucion de tickets de JavaScript, maquetacion con HTML5 y CSS3 en páginas nuevas y páginas ya existentes. Control de versiones con GIT."
+        }
+    },
+
+    "certificate": "Certificado en :",
+    "contributeGitHub" : "Contribuye en GitHub",
+
+    "about":{
+        "title":" Sobre mí",
+        "item1": "-Profesional del desarrollo de aplicaciones web especializado en el frontend con la biblioteca React JS. Me considero una persona proactiva, implicada y con muchas ganas de aprender.",
+        "item2": "-Actualmente estoy trabajando en el desarrollo de aplicaciones web con React JS y Node JS. También estoy aprendiendo a utilizar la biblioteca Next JS para el desarrollo de aplicaciones web con SSR (Server Side Rendering).",
+        "item3": "-Tengo conocimientos en el desarrollo de aplicaciones web con HTML, CSS, JavaScript, React JS, Node JS, Express JS, MongoDB, MySQL, PHP, Laravel, WordPress, Bootstrap, Materialize, Material UI, Tailwind CSS, Git, GitHub, GitLab, GitKraken, Visual Studio Code, Adobe XD, Figma, Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Audition, Lightroom, entre otros."
+    },
+
+    "education": {
+        "title": "Educación",
+        "item1": {
+            "title": "Grado Superior en Desarrollo de Aplicaciones Web",
+            "center": "I.E.S Mar de Cadiz(Puerto de Santa Maria)",
+            "date": "2018 - 2021"
+        },
+        "item2": {
+            "title": "Estudios de eduación secundaria (Bachillerato)",
+            "center": "Ntra Sña del Pilar (Jerez de la frontera)",
+            "date": "2012 - 2015"
+        }
+    },
+ 
+    "projects": {
+        "title": "Proyectos",
+        "item1": {
+            "title": "Financial Assessment",
+            "subtitle": "The WhiteTeam - HSBC UK",
+            "description":"Modificacion de la pagina de calculo financiero del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
+            "link": "https://financialfitness.hsbc.co.uk/"
+
+        },
+        "item2": {
+            "title": "Sustanability Assessment",
+            "subtitle": "The WhiteTeam - HSBC UK",
+            "description":"Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
+            "link": "https://sustainabilityassessment.business.hsbc.com/en-gb/"
+        },
+        "item3": {
+            "title": "Corona Warn App",
+            "subtitle": "Digital Cuisine - Gobierno Aleman",
+            "description":"Modificacion de la pagina del Covid del Gobierno Aleman. Desarrollo de la aplicación con Javascript, HTML5, CSS3",
+            "link": "https://www.coronawarn.app/en/"
+        }
+    },
+
+    "footer":{
+        "title": "Antonio Delage",
+        "subtitle": "Página web de código abierto realizada con ReactJS.",
+        "link": "Link al repositorio en GitHub",
+        "contact":"Contáctame:",
+        "follow": "Sigueme en:"
     }
+
+
+
+
 }

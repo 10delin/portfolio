@@ -1,5 +1,85 @@
 {
-    "header":{
-        "name": "Antonio Delage Cruzadoo ENG"
+    "header": {
+      "name": "Antonio Delage Cruzado",
+      "experience": "Experience",
+      "about": "About me",
+      "projects": "Projects"
+    },
+    "mainDescription": {
+      "subtitle": "FRONTEND WEB DEVELOPER",
+      "name": "Hi, I'm Antonio Delage, contact me to create",
+      "title": "Your web application with the best technologies.",
+      "sendMessage": "Send Message",
+      "worksTechnology": "Technical skills :"
+    },
+    "experience": {
+      "title": "Experience",
+      "item1": {
+        "position": "Front End Developer",
+        "company": "The WhiteTeam",
+        "date": "July.2022 - Present",
+        "description": "- Creation of the sustainability page for HSBC UK bank. Development of the application with ReactJS. ReactJS uses React Hooks, React Query, React Redux, React Router and React DOM. Layout with SASS and HTML5 with the FIGMA tool, Workflow and workload using SCRUM methodology. Use of API Fetch and REST. Version control using GIT and Bitbucket."
+      },
+      "item2": {
+        "position": "Junior Frontend Developer",
+        "company": "Digital Cuisine",
+        "date": "June.2021 - June.2022",
+        "description": "-Modification of the Madre Coraje association project, where pages are added/modified and an interactive map is created, all created with ReactJS. React Hooks, Leaflet and NodeJS are used. Layout with CSS and HTML5 with FIGMA tool, workflow and workload using KANVAN methodology. Version control with Git and Github."
+      },
+      "item3": {
+        "position": "Junior Frontend Developer",
+        "company": "Digital Cuisine",
+        "date": "March.2021 - June.2021",
+        "description": "-Ticket resolution on the Covid website of the German Government. Solving JavaScript tickets, layout with HTML5 and CSS3 on new and existing pages. Version control with GIT."
+      }
+    },
+    "certificate": "Certified in :",
+    "contributeGitHub": "Contribute on GitHub",
+    "about": {
+      "title": " About me",
+      "item1": "-Professional web application development specialized in the frontend with the React JS library. ",
+      "item2": "-Currently I am working on the development of web applications with React JS and Node JS. ",
+      "item3": "-I have knowledge in the development of web applications with HTML, CSS, JavaScript, React JS, Node JS, Express JS, MongoDB, MySQL, PHP, Laravel, WordPress, Bootstrap, Materialize, Material UI, Tailwind CSS, Git, GitHub, GitLab , GitKraken, Visual Studio Code, Adobe XD, Figma, Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Audition, Lightroom, among others."
+    },
+    "education": {
+      "title": "Education",
+      "item1": {
+        "title": "Higher Degree in Web Application Development",
+        "center": "I.E.S Mar de Cadiz (Puerto de Santa Maria)",
+        "date": "2018 - 2021"
+      },
+      "item2": {
+        "title": "Secondary education studies (Bachillerato)",
+        "center": "Ntra Sña del Pilar (Jerez de la Frontera)",
+        "date": "2012 - 2015"
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "item1": {
+        "title": "Financial Assessment",
+        "subtitle": "The White Team - HSBC UK",
+        "description": "Modification of the financial calculation page of the HSBC UK bank. Application development with ReactJS, HTML5, SASS",
+        "link": "https://financialfitness.hsbc.co.uk/"
+      },
+      "item2": {
+        "title": "Sustainability Assessment",
+        "subtitle": "The White Team - HSBC UK",
+        "description": "Creation of the sustainability page of the bank HSBC UK. Application development with ReactJS, HTML5, SASS",
+        "link": "https://sustainabilityassessment.business.hsbc.com/en-gb/"
+      },
+      "item3": {
+        "title": "Corona Warn App",
+        "subtitle": "Digital Cuisine - German Government",
+        "description": "Modification of the German Government's Covid page. Application development with Javascript, HTML5, CSS3",
+        "link": "https://www.coronawarn.app/en/"
+      }
+    },
+    "footer": {
+      "title": "Antonio Delage",
+      "subtitle": "Open source web page made with ReactJS.",
+      "link": "Link to the repository on GitHub",
+      "contact": "Contact me:",
+      "follow": "Follow me in:"
     }
-}
+  }
