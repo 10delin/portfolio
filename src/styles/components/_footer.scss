@@ -10,8 +10,14 @@
   text-align: center;
   font-size: 1.2rem;
 
-  @include breakpoint(desktop-medium) {
+  @include breakpoint(desktop) {
     padding: $padding-desktop;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  @include breakpoint(desktop-large) {
+    padding: $padding-desktop-large;
     padding-top: 16px;
     padding-bottom: 16px;
   }

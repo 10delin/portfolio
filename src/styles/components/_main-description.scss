@@ -135,12 +135,7 @@
         position: absolute;
         bottom: 0;
         width: 100%;
-        min-width: 525px;
-        object-position: -5px 2px;
-      }
-      @include breakpoint(desktop-extra-large) {
-        min-width: 320px;
-        max-width: 470px;
+        max-width: 360px;
       }
     }
   }

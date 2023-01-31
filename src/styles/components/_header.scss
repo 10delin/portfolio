@@ -1,9 +1,16 @@
 .header {
   display: block;
-  position: relative;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   background-color: white;
   z-index: 1;
+
+  @include breakpoint(tablet) {
+    position: fixed;
+    bottom: initial;
+    top: 0;
+  }
 
   &__content {
     padding: $padding-mobile;
@@ -17,8 +24,12 @@
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     }
 
-    @include breakpoint(desktop-medium) {
+    @include breakpoint(desktop) {
       padding: $padding-desktop;
+    }
+
+    @include breakpoint(desktop-large) {
+      padding: $padding-desktop-large;
     }
   }
 
@@ -52,7 +63,7 @@
       margin-right: 10px;
       position: relative;
       a {
-        padding: 27px 15px;
+        padding: 19px 15px;
         text-decoration: none;
         color: $c-text-primary;
         font-size: 1.2rem;
@@ -60,7 +71,7 @@
         transition: color 0.3s;
         &::after {
           background: none repeat scroll 0 0 transparent;
-          bottom: -27px;
+          bottom: -20px;
           content: "";
           display: block;
           height: 2px;

@@ -7,9 +7,8 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__content">
-        <div className="header__title">
-          <p>{t("header.name")}</p>
-        </div>
+        <ChangeLanguage />
+
         <div className="header__description">
           <p className="header__description__items">
             <a href="#experience">{t("header.experience")}</a>
@@ -20,9 +19,7 @@ const Header = () => {
           <p className="header__description__items">
             <a href="#projects">{t("header.projects")}</a>
           </p>
-          <ChangeLanguage />
         </div>
-        <ContributeGithub t={t} />
       </div>
     </header>
   );

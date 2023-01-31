@@ -5,8 +5,12 @@
   margin-top: 150px;
   z-index: 0;
 
-  @include breakpoint(desktop-medium) {
+  @include breakpoint(desktop) {
     padding: $padding-desktop;
-    margin-top: 200px;
+    margin-top: 230px;
+  }
+
+  @include breakpoint(desktop-large) {
+    padding: $padding-desktop-large;
   }
 }
