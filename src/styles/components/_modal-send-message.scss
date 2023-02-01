@@ -1,0 +1,128 @@
+.modal-send-message {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    bottom: 450px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 320px;
+    animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+
+    @include breakpoint(mobile) {
+      width: 400px;
+    }
+
+    @keyframes unfoldIn {
+      0% {
+        transform: scaleY(0.005) scaleX(0);
+      }
+      50% {
+        transform: scaleY(0.005) scaleX(1);
+      }
+      100% {
+        transform: scaleY(1) scaleX(1);
+      }
+    }
+
+    &__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+      width: 100%;
+      margin-bottom: 15px;
+      border-bottom: 1px solid grey;
+
+      &__title {
+        p {
+          font-size: 20px;
+          font-weight: 00;
+          margin: 0;
+        }
+      }
+
+      &__close {
+        margin-bottom: 15px;
+        align-items: center;
+        position: relative;
+        button {
+          color: red;
+          font-size: 20px;
+          background-color: white;
+          cursor: pointer;
+          border: 1px solid grey;
+          border-radius: 50%;
+          padding: 5px 10px;
+
+          &:hover {
+            background-color: red;
+            color: white;
+            border: 1px solid white;
+          }
+        }
+      }
+    }
+
+    &__body {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-between;
+      align-items: left;
+      gap: 20px;
+
+      &__title {
+        font-size: 26px;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+      }
+
+      &--items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+      }
+      &--item {
+        display: flex;
+        flex-direction: row;
+        a {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          gap: 5px;
+          width: 100%;
+          padding: 10px 15px;
+          color: black;
+          text-decoration: none;
+          border: 1px solid grey;
+          border-radius: 5px;
+          cursor: pointer;
+          min-width: 230px;
+
+          &:hover {
+            background-color: #eeeeee;
+          }
+        }
+      }
+    }
+  }
+}

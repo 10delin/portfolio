@@ -1,8 +1,16 @@
 .header {
   display: block;
-  position: relative;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   background-color: white;
+  z-index: 1;
+
+  @include breakpoint(tablet) {
+    position: fixed;
+    bottom: initial;
+    top: 0;
+  }
 
   &__content {
     padding: $padding-mobile;
@@ -16,8 +24,12 @@
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
     }
 
-    @include breakpoint(desktop-medium) {
+    @include breakpoint(desktop) {
       padding: $padding-desktop;
+    }
+
+    @include breakpoint(desktop-large) {
+      padding: $padding-desktop-large;
     }
   }
 
@@ -39,35 +51,47 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     font-size: 1.2rem;
     font-weight: 350;
     width: 100%;
+    justify-content: space-evenly;
+    gap: 10px;
     @include breakpoint(tablet) {
       justify-content: flex-end;
+      gap: 0;
     }
 
     &__items {
       margin-right: 10px;
       position: relative;
       a {
-        padding: 27px 15px;
+        padding: 19px 3px;
         text-decoration: none;
         color: $c-text-primary;
         font-size: 1.2rem;
         font-weight: 600;
         transition: color 0.3s;
+        @include breakpoint(tablet) {
+          padding: 19px 15px;
+        }
+
         &::after {
           background: none repeat scroll 0 0 transparent;
-          bottom: -27px;
+          top: -20px;
           content: "";
           display: block;
-          height: 2px;
+          height: 3px;
           left: 50%;
           position: absolute;
           background: $c-text-primary;
           transition: width 0.3s ease 0s, left 0.3s ease 0s;
           width: 0;
+
+          @include breakpoint(tablet) {
+            bottom: -20px;
+            top: initial;
+            height: 2px;
+          }
         }
         &:hover {
           background-color: $c-background-hover;

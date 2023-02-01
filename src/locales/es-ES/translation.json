@@ -11,25 +11,25 @@
         "name": "Hola, soy Antonio Delage, contactame para crear",
         "title": "Tu aplicación web con las mejores tecnologías.",
         "sendMessage": "Enviar mensaje",
-        "worksTechnology": "Aptitudes tecnicas : "
+        "worksTechnology": "Aptitudes tecnicas: "
     },
 
     "experience":{
         "title":"Experiencia",
         "item1":{
-            "position": "Frontend Developer",
+            "position": "Desarrollador Frontend",
             "company": "The WhiteTeam",
             "date": "julio.2022 - Actualidad",
             "description":"- Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS. Dentro de ReactJS se usa React Hooks, React Query, React Redux, React Router y React DOM. Maquetación con SASS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia SCRUM. Uso de API Fetch y REST. Control de versiones mediante GIT y Bitbucket."
         },
         "item2":{
-            "position": "Junior Frontend Developer",
+            "position": "Desarrollador Frontend Junior",
             "company": "Digital Cuisine",
             "date": "junio.2021 - junio.2022",
             "description":"-Se modifica proyecto de la asociación Madre Coraje, donde se añaden/modifican paginas y se crea un mapa interactivo, todo creado con ReactJS. Se usan React Hooks, Leaflet y NodeJS. Maquetación con CSS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia KANVAN. Control de versiones con Git y Github."
         },
         "item3":{
-            "position": "Junior Frontend Developer",
+            "position": "Desarrollador Frontend Junior",
             "company": "Digital Cuisine",
             "date": "marzo.2021 - junio.2021",
             "description":"-Resolucion de tickets en la pagina del Covid del Gobierno Aleman. Resolucion de tickets de JavaScript, maquetacion con HTML5 y CSS3 en páginas nuevas y páginas ya existentes. Control de versiones con GIT."
@@ -40,10 +40,10 @@
     "contributeGitHub" : "Contribuye en GitHub",
 
     "about":{
-        "title":" Sobre mí",
-        "item1": "-Profesional del desarrollo de aplicaciones web especializado en el frontend con la biblioteca React JS. Me considero una persona proactiva, implicada y con muchas ganas de aprender.",
-        "item2": "-Actualmente estoy trabajando en el desarrollo de aplicaciones web con React JS y Node JS. También estoy aprendiendo a utilizar la biblioteca Next JS para el desarrollo de aplicaciones web con SSR (Server Side Rendering).",
-        "item3": "-Tengo conocimientos en el desarrollo de aplicaciones web con HTML, CSS, JavaScript, React JS, Node JS, Express JS, MongoDB, MySQL, PHP, Laravel, WordPress, Bootstrap, Materialize, Material UI, Tailwind CSS, Git, GitHub, GitLab, GitKraken, Visual Studio Code, Adobe XD, Figma, Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Audition, Lightroom, entre otros."
+        "title": " Sobre mí",
+        "item1": "- Profesional del desarrollo de aplicaciones web especializado en el frontend con la biblioteca React JS. Me considero una persona proactiva, implicada y con muchas ganas de aprender.",
+        "item2": "- Actualmente estoy trabajando en el desarrollo de aplicaciones web con ReactJS y NodeJS. También estoy aprendiendo a utilizar la biblioteca NextJS para el desarrollo de aplicaciones web con SSR (Server Side Rendering).",
+        "item3": "- Otra de las tecnologias que estoy deseando aprender son TypeScript,  GraphQL y MongoDB. También me gustaría aprender a utilizar la biblioteca React Native para el desarrollo de aplicaciones móviles."
     },
 
     "education": {

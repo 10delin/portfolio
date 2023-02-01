@@ -4,9 +4,15 @@
 
   &__content-picture {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     width: 100%;
     justify-content: space-between;
+    @include breakpoint(desktop) {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+    }
   }
 
   &__content {
@@ -14,8 +20,7 @@
     flex-direction: column;
     align-items: left;
     width: 100%;
-    min-width: 410px;
-    margin-right: 126px;
+    margin-right: 150px;
   }
 
   &__name {
@@ -39,8 +44,8 @@
     display: flex;
     flex-direction: row;
     align-items: left;
-    font-size: 58px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 600;
     line-height: 1.25;
     background: -webkit-linear-gradient(
       165deg,
@@ -52,6 +57,11 @@
     margin: 0;
     margin-bottom: 20px;
     padding-bottom: 10px;
+
+    @include breakpoint(mobile) {
+      font-size: 58px;
+      font-weight: 700;
+    }
   }
 
   button {
@@ -116,31 +126,33 @@
   &__picture {
     display: flex;
     position: relative;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 550px;
-    min-width: 350px;
     border: 2px solid rgb(156, 156, 156);
     border-radius: 10%;
     background-image: url(../../assets/images/1.webp);
     background-size: cover;
     background-size: 200%;
     background-position: 88% 0px;
+
+    @include breakpoint(desktop) {
+      max-width: 550px;
+      min-width: 350px;
+    }
     img {
-      display: none;
+      display: flex;
+      position: relative;
+      width: 100%;
+      max-width: 250px;
+      @include breakpoint(mobile) {
+        max-width: 360px;
+      }
       @include breakpoint(desktop) {
         display: flex;
         position: absolute;
         bottom: 0;
         width: 100%;
-        min-width: 525px;
-        object-position: -5px 2px;
-      }
-      @include breakpoint(desktop-extra-large) {
-        min-width: 320px;
-        max-width: 450px;
+        max-width: 360px;
       }
     }
   }
@@ -148,8 +160,13 @@
   &__works {
     display: flex;
     position: relative;
+    flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    @include breakpoint(desktop) {
+      flex-direction: row;
+      margin-top: 100px;
+    }
 
     &__title {
       font-size: 15px;
