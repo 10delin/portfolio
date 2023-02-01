@@ -3,8 +3,12 @@ import { iconWorks } from "../../utils/model";
 import { sendIcon } from "../../utils/model";
 import useWindowSize from "../../hooks/useWindowSize";
 import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
+import ModalSendMessage from "../ModalSendMessage/ModalSendMessage";
+import { useState } from "react";
 
 const MainDescription = ({ t }) => {
+  const [showModal, setShowModal] = useState(false);
+
   const size = useWindowSize();
   return (
     <div id="main" className="main-description">
@@ -19,12 +23,16 @@ const MainDescription = ({ t }) => {
           <p className="main-description__title">
             {t("mainDescription.title")}
           </p>
-          <button className="main-description__button">
+          <button
+            className="main-description__button"
+            onClick={() => setShowModal(true)}
+          >
             <div className="svg-wrapper-1">
               <div className="svg-wrapper">{sendIcon}</div>
             </div>
             <span>{t("mainDescription.sendMessage")}</span>
           </button>
+          {showModal && <ModalSendMessage setShowModal={setShowModal} />}
         </div>
         <div className="main-description__picture">
           <img src={profileImage} alt="picture2" />
