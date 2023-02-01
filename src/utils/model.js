@@ -97,7 +97,6 @@ export const iconContact = [
     icon: "https://img.icons8.com/color/48/000000/whatsapp--v1.png",
     title: "Whatsapp",
     alt: "whatsapp",
-    link: "https://wa.me/695484893",
   },
 ];
 
