@@ -1,10 +1,14 @@
 import profileImage from "../../assets/images/profile.webp";
 import { iconWorks } from "../../utils/model";
 import { sendIcon } from "../../utils/model";
+import useWindowSize from "../../hooks/useWindowSize";
+import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
 
 const MainDescription = ({ t }) => {
+  const size = useWindowSize();
   return (
     <div id="main" className="main-description">
+      {size.width < 600 && <ChangeLanguage />}
       <div className="main-description__content-picture">
         <div className="main-description__content">
           <p className="main-description__subtitle">
@@ -33,14 +37,27 @@ const MainDescription = ({ t }) => {
         <div className="main-description__works__content">
           <div className="main-description__works__content__item">
             {iconWorks.map((icon, index) => {
-              return (
-                <img
-                  key={index}
-                  src={icon.icon}
-                  title={icon.title}
-                  alt={icon.alt}
-                />
-              );
+              if (size.width > 768) {
+                return (
+                  <img
+                    key={index}
+                    src={icon.icon}
+                    title={icon.title}
+                    alt={icon.alt}
+                  />
+                );
+              }
+              if (size.width < 768 && index < 6) {
+                return (
+                  <img
+                    key={index}
+                    src={icon.icon}
+                    title={icon.title}
+                    alt={icon.alt}
+                  />
+                );
+              }
+              return null;
             })}
           </div>
         </div>

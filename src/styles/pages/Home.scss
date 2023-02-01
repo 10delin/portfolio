@@ -2,8 +2,12 @@
   display: block;
   position: relative;
   padding: $padding-mobile;
-  margin-top: 150px;
+  margin-top: 24px;
   z-index: 0;
+
+  @include breakpoint(tablet) {
+    margin-top: 150px;
+  }
 
   @include breakpoint(desktop) {
     padding: $padding-desktop;

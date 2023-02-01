@@ -4,6 +4,12 @@
   border: 1px solid #afafaf;
   border-radius: 5px;
   box-shadow: 0 8px 24px -17px #000101;
+  max-width: 122px;
+  margin-bottom: 24px;
+
+  @include breakpoint(mobile) {
+    margin-bottom: initial;
+  }
 
   &__button {
     display: flex;

@@ -7,10 +7,15 @@
   &__content {
     display: flex;
     position: relative;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 30px;
     align-items: center;
     width: 100%;
+
+    @include breakpoint(desktop) {
+      flex-direction: row;
+    }
 
     &__project {
       display: flex;
@@ -21,10 +26,6 @@
       min-height: 430px;
       border: 1px solid rgb(209, 209, 209);
       transition: 0.3s ease;
-
-      &:not(:last-child) {
-        margin-right: 30px;
-      }
 
       img {
         width: 100%;
