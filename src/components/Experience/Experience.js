@@ -1,4 +1,5 @@
 import { EXPERIENCES } from "../../utils/model";
+
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import TitleArea from "../TitleArea/TitleArea";
 

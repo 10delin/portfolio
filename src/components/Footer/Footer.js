@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
+
 import { iconSocial } from "../../utils/model";
 import { iconContact } from "../../utils/model";
+
 import UnderFooter from "../UnderFooter/UnderFooter";
-import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   const { t } = useTranslation();

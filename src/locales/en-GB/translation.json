@@ -10,7 +10,13 @@
       "name": "Hello, I'm Antonio Delage, contact me to create",
       "title": "Your web application with best technologies.",
       "sendMessage": "Send Message",
-      "worksTechnology": "Technical skills :"
+      "worksTechnology": "Technical skills :",
+      "modal":{
+        "title": "Send Message",
+        "subtitle": "Contact me",
+        "linkedin": "Through Linkedin",
+        "email": "Through Gmail"
+    }
     },
     "experience": {
       "title": "Experience",
@@ -24,22 +30,22 @@
         "position": "Junior Frontend Developer",
         "company": "Digital Cuisine",
         "date": "June.2021 - June.2022",
-        "description": "-Modification of the Madre Coraje association project, where pages are added/modified and an interactive map is created, all created with ReactJS. React Hooks, Leaflet and NodeJS are used. Layout with CSS and HTML5 with FIGMA tool, workflow and workload using KANVAN methodology. Version control with Git and Github."
+        "description": "- Modification of the Madre Coraje association project, where pages are added/modified and an interactive map is created, all created with ReactJS. React Hooks, Leaflet and NodeJS are used. Layout with CSS and HTML5 with FIGMA tool, workflow and workload using KANVAN methodology. Version control with Git and Github."
       },
       "item3": {
         "position": "Junior Frontend Developer",
         "company": "Digital Cuisine",
         "date": "March.2021 - June.2021",
-        "description": "-Ticket resolution on the Covid website of the German Government. Solving JavaScript tickets, layout with HTML5 and CSS3 on new and existing pages. Version control with GIT."
+        "description": "- Ticket resolution on the Covid website of the German Government. Solving JavaScript tickets, layout with HTML5 and CSS3 on new and existing pages. Version control with GIT."
       }
     },
     "certificate": "Certified in :",
-    "contributeGitHub": "Contribute on GitHub",
+    "contributeGitHub": "Rate project",
     "about": {
-      "title": " About me",
-      "item1": "-Professional web application development specialized in the frontend with the React JS library. ",
-      "item2": "-Currently I am working on the development of web applications with React JS and Node JS. ",
-      "item3": "-I have knowledge in the development of web applications with HTML, CSS, JavaScript, React JS, Node JS, Express JS, MongoDB, MySQL, PHP, Laravel, WordPress, Bootstrap, Materialize, Material UI, Tailwind CSS, Git, GitHub, GitLab , GitKraken, Visual Studio Code, Adobe XD, Figma, Photoshop, Illustrator, InDesign, Premiere Pro, After Effects, Audition, Lightroom, among others."
+      "title": "About me",
+      "item1": "- Professional web application development specialized in the frontend with the React JS library. ",
+      "item2": "- Currently I am working on the development of web applications with React JS and Node JS. ",
+      "item3": "- Other technologies I'm looking forward to learn are TypeScript, GraphQL and MongoDB. I would also like to learn how to use the React Native library for mobile app development."
     },
     "education": {
       "title": "Education",

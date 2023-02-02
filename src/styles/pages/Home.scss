@@ -11,7 +11,7 @@
 
   @include breakpoint(desktop) {
     padding: $padding-desktop;
-    padding-top: 230px;
+    padding-top: 150px;
   }
 
   @include breakpoint(desktop-large) {

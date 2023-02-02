@@ -2,6 +2,14 @@
   display: flex;
   flex-direction: column;
 
+  &__content-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
   &__content-picture {
     display: flex;
     flex-direction: column-reverse;
@@ -32,12 +40,19 @@
   }
 
   &__subtitle {
-    margin-top: 0;
-    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: 32px;
     font-weight: 600;
     color: $c-text-title-secondary;
+
+    @include breakpoint(desktop) {
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
   }
 
   &__title {

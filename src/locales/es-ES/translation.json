@@ -11,7 +11,13 @@
         "name": "Hola, soy Antonio Delage, contactame para crear",
         "title": "Tu aplicación web con las mejores tecnologías.",
         "sendMessage": "Enviar mensaje",
-        "worksTechnology": "Aptitudes tecnicas: "
+        "worksTechnology": "Aptitudes tecnicas: ",
+        "modal":{
+            "title": "Enviar mensaje",
+            "subtitle": "Contacta conmigo",
+            "linkedin": "A traves de Linkedin",
+            "email": "A traves de Gmail"
+        }
     },
 
     "experience":{
@@ -26,18 +32,18 @@
             "position": "Desarrollador Frontend Junior",
             "company": "Digital Cuisine",
             "date": "junio.2021 - junio.2022",
-            "description":"-Se modifica proyecto de la asociación Madre Coraje, donde se añaden/modifican paginas y se crea un mapa interactivo, todo creado con ReactJS. Se usan React Hooks, Leaflet y NodeJS. Maquetación con CSS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia KANVAN. Control de versiones con Git y Github."
+            "description":"- Se modifica proyecto de la asociación Madre Coraje, donde se añaden/modifican paginas y se crea un mapa interactivo, todo creado con ReactJS. Se usan React Hooks, Leaflet y NodeJS. Maquetación con CSS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia KANVAN. Control de versiones con Git y Github."
         },
         "item3":{
             "position": "Desarrollador Frontend Junior",
             "company": "Digital Cuisine",
             "date": "marzo.2021 - junio.2021",
-            "description":"-Resolucion de tickets en la pagina del Covid del Gobierno Aleman. Resolucion de tickets de JavaScript, maquetacion con HTML5 y CSS3 en páginas nuevas y páginas ya existentes. Control de versiones con GIT."
+            "description":"- Resolucion de tickets en la pagina del Covid del Gobierno Aleman. Resolucion de tickets de JavaScript, maquetacion con HTML5 y CSS3 en páginas nuevas y páginas ya existentes. Control de versiones con GIT."
         }
     },
 
     "certificate": "Certificado en :",
-    "contributeGitHub" : "Contribuye en GitHub",
+    "contributeGitHub" : "Puntualo en",
 
     "about":{
         "title": " Sobre mí",

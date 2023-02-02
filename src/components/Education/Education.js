@@ -1,4 +1,5 @@
 import { EDUCATION } from "../../utils/model";
+
 import EducationItem from "../EducationItem/EducationItem";
 
 const Education = ({ t }) => {

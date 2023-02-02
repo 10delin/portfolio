@@ -8,7 +8,7 @@
     height: 25px;
     width: 25px;
     position: absolute;
-    left: -5px;
+    left: -17px;
     top: -7px;
     animation: pulsate 1s ease-out;
     animation-iteration-count: infinite;
@@ -81,7 +81,7 @@
   }
 
   &__company {
-    color: #808080;
+    color: $c-text-title-secondary;
     font-weight: 500;
     font-size: 0.9rem;
   }

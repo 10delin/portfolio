@@ -1,8 +1,8 @@
-import imageProject1 from "../assets/images/project1.png";
-import imageProject2 from "../assets/images/project2.png";
-import imageProject3 from "../assets/images/project3.png";
-import imageStudios from "../assets/images/estudios.png";
-import imageStudios2 from "../assets/images/estudios2.png";
+import imageProject1 from "../assets/images/project1.webp";
+import imageProject2 from "../assets/images/project2.webp";
+import imageProject3 from "../assets/images/project3.webp";
+import imageStudios from "../assets/images/estudios.webp";
+import imageStudios2 from "../assets/images/estudios2.webp";
 
 export const iconWorks = [
   {
@@ -97,7 +97,6 @@ export const iconContact = [
     icon: "https://img.icons8.com/color/48/000000/whatsapp--v1.png",
     title: "Whatsapp",
     alt: "whatsapp",
-    link: "https://wa.me/695484893",
   },
 ];
 

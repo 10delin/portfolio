@@ -1,10 +1,13 @@
+import { useState } from "react";
+
 import profileImage from "../../assets/images/profile.webp";
 import { iconWorks } from "../../utils/model";
 import { sendIcon } from "../../utils/model";
 import useWindowSize from "../../hooks/useWindowSize";
+
 import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
 import ModalSendMessage from "../ModalSendMessage/ModalSendMessage";
-import { useState } from "react";
+import ContributeGithub from "../ContributeGithub/ContributeGithub";
 
 const MainDescription = ({ t }) => {
   const [showModal, setShowModal] = useState(false);
@@ -12,7 +15,11 @@ const MainDescription = ({ t }) => {
   const size = useWindowSize();
   return (
     <div id="main" className="main-description">
-      {size.width < 600 && <ChangeLanguage />}
+      {size.width < 600 && (
+        <div className="main-description__content-buttons">
+          <ChangeLanguage /> <ContributeGithub t={t} />
+        </div>
+      )}
       <div className="main-description__content-picture">
         <div className="main-description__content">
           <p className="main-description__subtitle">
@@ -32,7 +39,7 @@ const MainDescription = ({ t }) => {
             </div>
             <span>{t("mainDescription.sendMessage")}</span>
           </button>
-          {showModal && <ModalSendMessage setShowModal={setShowModal} />}
+          {showModal && <ModalSendMessage t={t} setShowModal={setShowModal} />}
         </div>
         <div className="main-description__picture">
           <img src={profileImage} alt="picture2" />
