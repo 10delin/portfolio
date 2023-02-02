@@ -1,4 +1,4 @@
-const ModalSendMessage = ({ setShowModal }) => {
+const ModalSendMessage = ({ t, setShowModal }) => {
   const changeModal = () => {
     setShowModal(false);
   };
@@ -8,7 +8,7 @@ const ModalSendMessage = ({ setShowModal }) => {
       <div className="modal-send-message__content">
         <div className="modal-send-message__content__header">
           <div className="modal-send-message__content__header__title">
-            <p>Mandame un mensaje</p>
+            <p>{t("mainDescription.modal.title")}</p>
           </div>
           <div className="modal-send-message__content__header__close">
             <button className="" onClick={changeModal}>
@@ -17,7 +17,9 @@ const ModalSendMessage = ({ setShowModal }) => {
           </div>
         </div>
         <div className="modal-send-message__content__body">
-          <p className="modal-send-message__content__body__title">Contactame</p>
+          <p className="modal-send-message__content__body__title">
+            {t("mainDescription.modal.subtitle")}
+          </p>
           <div className="modal-send-message__content__body--items">
             <div className="modal-send-message__content__body--item">
               <a
@@ -25,7 +27,7 @@ const ModalSendMessage = ({ setShowModal }) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                A traves de Linkedin
+                {t("mainDescription.modal.linkedin")}
                 <img
                   src="https://img.icons8.com/color/48/000000/linkedin.png"
                   alt="linkedin"
@@ -38,7 +40,7 @@ const ModalSendMessage = ({ setShowModal }) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                A traves de Gmail
+                {t("mainDescription.modal.email")}
                 <img
                   src="https://img.icons8.com/color/48/000000/gmail.png"
                   alt="gmail"

@@ -37,7 +37,7 @@ const MainDescription = ({ t }) => {
             </div>
             <span>{t("mainDescription.sendMessage")}</span>
           </button>
-          {showModal && <ModalSendMessage setShowModal={setShowModal} />}
+          {showModal && <ModalSendMessage t={t} setShowModal={setShowModal} />}
         </div>
         <div className="main-description__picture">
           <img src={profileImage} alt="picture2" />
