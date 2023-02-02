@@ -1,4 +1,4 @@
-const ContributeGithub = ({ t }) => {
+const ContributeGithub = () => {
   return (
     <div className="contribute-github">
       <a

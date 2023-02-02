@@ -1,14 +1,12 @@
-const ExperienceItem = ({ t, index, experience }) => {
+const ExperienceItem = ({ t, experience }) => {
   return (
-    <>
+    <li key={experience.id}>
       {experience.actual && <div className="experience__ringring" />}
-      <li key={experience.id}>
-        <div className="experience__job">{t(experience.position)}</div>
-        <p className="experience__company">{t(experience.company)}</p>
-        <p>{t(experience.date)}</p>
-        <p>{t(experience.description)} </p>
-      </li>
-    </>
+      <div className="experience__job">{t(experience.position)}</div>
+      <p className="experience__company">{t(experience.company)}</p>
+      <p>{t(experience.date)}</p>
+      <p>{t(experience.description)} </p>
+    </li>
   );
 };
 

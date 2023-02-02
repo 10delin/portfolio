@@ -9,7 +9,7 @@ const ProjectItem = ({ t, project }) => {
       <img src={project.image} alt={project.image} />
       <div className="projects__content__project--title">
         <h2>{t(project.title)}</h2>
-        <h5> {t(project.subtitle)}</h5>
+        <h3> {t(project.subtitle)}</h3>
         <p>{t(project.description)}</p>
       </div>
     </a>
