@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
-import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
+
 import useWindowSize from "../../hooks/useWindowSize";
+
+import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
 import ContributeGithub from "../ContributeGithub/ContributeGithub";
 
 const Header = () => {

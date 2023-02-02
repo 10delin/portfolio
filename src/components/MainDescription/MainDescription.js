@@ -1,10 +1,12 @@
+import { useState } from "react";
+
 import profileImage from "../../assets/images/profile.webp";
 import { iconWorks } from "../../utils/model";
 import { sendIcon } from "../../utils/model";
 import useWindowSize from "../../hooks/useWindowSize";
+
 import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
 import ModalSendMessage from "../ModalSendMessage/ModalSendMessage";
-import { useState } from "react";
 import ContributeGithub from "../ContributeGithub/ContributeGithub";
 
 const MainDescription = ({ t }) => {
