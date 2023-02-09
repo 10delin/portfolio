@@ -1,24 +1,31 @@
 .certificate {
+  position: relative;
   margin-top: 80px;
+  border: 2px solid #e1e1e1;
+  transition: 0.2s ease-in-out;
+
   a {
     text-decoration: none;
   }
+  &:hover {
+    border-color: #838383;
+    background-color: #00000029;
+    .pop-up {
+      transition: 0.2s ease-in-out;
+      pointer-events: unset;
+      transform: translate(0%, -45%);
+      opacity: 1;
+    }
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px solid #e1e1e1;
     border-radius: 5px;
-    transition: 0.5s ease;
     @include breakpoint(mobile) {
       flex-direction: row;
-    }
-
-    &:hover {
-      transition: 0.5s ease;
-      transform: translate(0, -8px);
-      background: linear-gradient(to top, #8f6b29, #fde08d, #df9f28);
     }
 
     &__title {

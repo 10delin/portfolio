@@ -18,9 +18,18 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      padding: 15px;
+      padding: 20px 30px;
       border: 2px solid #e1e1e1;
-      border-radius: 5px;
+      border-top: 4px solid #01d402;
+      border-radius: 5px 5px 5px 5px;
+
+      &--degree {
+        border-top: 4px solid #01d402;
+      }
+
+      &--school {
+        border-top: 4px solid #517894;
+      }
 
       img {
         width: 100px;

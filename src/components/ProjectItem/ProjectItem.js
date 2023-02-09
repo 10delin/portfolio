@@ -1,3 +1,5 @@
+import PopUp from "../PopUp/PopUp";
+
 const ProjectItem = ({ t, project }) => {
   return (
     <a
@@ -12,6 +14,7 @@ const ProjectItem = ({ t, project }) => {
         <h3> {t(project.subtitle)}</h3>
         <p>{t(project.description)}</p>
       </div>
+      <PopUp />
     </a>
   );
 };

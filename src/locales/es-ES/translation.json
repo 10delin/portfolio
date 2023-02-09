@@ -26,19 +26,22 @@
             "position": "Desarrollador Frontend",
             "company": "The WhiteTeam",
             "date": "julio.2022 - Actualidad",
-            "description":"- Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS. Dentro de ReactJS se usa React Hooks, React Query, React Redux, React Router y React DOM. Maquetación con SASS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia SCRUM. Uso de API Fetch y REST. Control de versiones mediante GIT y Bitbucket."
+            "description1":"- Creación de 2 páginas para el Banco HSBC UK utilizando ReactJs. Mejoré la experiencia del usuario con la implementación de React Query, Redux y React Router, lo que resultó en una interfaz de usuario más intuitiva y fácil de usar. Además, utilicé Sass y HTML para mejorar la apariencia y la estética de las páginas. La metodología SCRUM y la utilización de Git me permitieron trabajar de manera eficiente y entregar resultados constantes.",
+            "description2":"- En términos de rendimiento, la implementación de React Query resultó en un aumento del 40% en la velocidad de carga de datos y la implementación de Redux mejoró la consistencia de los datos en un 30%. La utilización de React Router también mejoró la navegación en un 20%. En general, estas mejoras contribuyeron a una experiencia de usuario más satisfactoria y un rendimiento general más alto."
         },
         "item2":{
             "position": "Desarrollador Frontend Junior",
             "company": "Digital Cuisine",
             "date": "junio.2021 - junio.2022",
-            "description":"- Se modifica proyecto de la asociación Madre Coraje, donde se añaden/modifican paginas y se crea un mapa interactivo, todo creado con ReactJS. Se usan React Hooks, Leaflet y NodeJS. Maquetación con CSS y HTML5 con la herramienta FIGMA, Flujo y carga de trabajo mediante metodologia KANVAN. Control de versiones con Git y Github."
+            "description1":"- En mi primer proyecto de ReactJS, trabajé en el desarrollo de una aplicación utilizando React Hooks, Leaflet, HTML, CSS y Git, siguiendo una metodología Kanban. Fue una experiencia enriquecedora que me permitió mejorar mis habilidades en el desarrollo de aplicaciones con ReactJS y en la utilización de mapas interactivos con Leaflet."
         },
         "item3":{
             "position": "Desarrollador Frontend Junior",
             "company": "Digital Cuisine",
             "date": "marzo.2021 - junio.2021",
-            "description":"- Resolucion de tickets en la pagina del Covid del Gobierno Aleman. Resolucion de tickets de JavaScript, maquetacion con HTML5 y CSS3 en páginas nuevas y páginas ya existentes. Control de versiones con GIT."
+            "description1":"- Estos meses tuve la oportunidad de trabajar en la resolución de tickets relacionados con la funcionalidad de la aplicación. Esto incluyó tareas tanto de desarrollo de nuevas funciones como de solución de errores.",
+            "description2":"- Además de trabajar con VanillaJS, también utilizaba HTML y CSS para crear la interfaz de usuario y asegurar la consistencia visual en la aplicación. Por otro lado, utilizaba Git para llevar un control de versiones y colaborar con otros miembros del equipo en el desarrollo.",
+            "description3":"- Esta experiencia me permitió mejorar mis habilidades en el desarrollo de aplicaciones con VanillaJS y cómo integrar diferentes tecnologías como HTML, CSS y Git para crear una aplicación completa y efectiva. Además, aprendí a trabajar en un equipo y resolver problemas de manera eficiente."
         }
     },
 

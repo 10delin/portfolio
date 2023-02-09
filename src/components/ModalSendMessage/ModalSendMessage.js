@@ -1,17 +1,21 @@
 const ModalSendMessage = ({ t, setShowModal }) => {
-  const changeModal = () => {
+  const closeModal = () => {
     setShowModal(false);
   };
 
+  const outModal = (e) => {
+    e.target.className === "modal-send-message" && setShowModal(false);
+  };
+
   return (
-    <div className="modal-send-message">
+    <div className="modal-send-message" onClick={outModal}>
       <div className="modal-send-message__content">
         <div className="modal-send-message__content__header">
           <div className="modal-send-message__content__header__title">
             <p>{t("mainDescription.modal.title")}</p>
           </div>
           <div className="modal-send-message__content__header__close">
-            <button className="" onClick={changeModal}>
+            <button className="" onClick={closeModal}>
               X
             </button>
           </div>
