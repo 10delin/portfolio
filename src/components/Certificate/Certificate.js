@@ -1,5 +1,6 @@
-import imageCertificate from "../../assets/images/react-certificate-Es.png";
-import imageCertificate2 from "../../assets/images/react-certificate-Eng.png";
+import imageCertificate from "../../assets/images/react-certificate-Es.webp";
+import imageCertificate2 from "../../assets/images/react-certificate-Eng.webp";
+import PopUp from "../PopUp/PopUp";
 
 const Certificate = ({ t }) => {
   const changeImage =
@@ -21,6 +22,7 @@ const Certificate = ({ t }) => {
           </div>
         </div>
       </a>
+      <PopUp />
     </div>
   );
 };

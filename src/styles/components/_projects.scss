@@ -19,6 +19,7 @@
 
     &__project {
       display: flex;
+      position: relative;
       flex-direction: column;
       width: 100%;
       text-decoration: none;
@@ -49,6 +50,13 @@
         img {
           transition: 0.3s ease;
           filter: brightness(0.5);
+        }
+
+        .pop-up {
+          transition: 0.2s ease-in-out;
+          pointer-events: unset;
+          transform: translate(0%, -45%);
+          opacity: 1;
         }
 
         .projects__content__project--title {

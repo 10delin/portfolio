@@ -106,7 +106,8 @@ export const EXPERIENCES = [
     position: "experience.item1.position",
     company: "experience.item1.company",
     date: "experience.item1.date",
-    description: "experience.item1.description",
+    description1: "experience.item1.description1",
+    description2: "experience.item1.description2",
     actual: true,
   },
   {
@@ -114,7 +115,7 @@ export const EXPERIENCES = [
     position: "experience.item2.position",
     company: "experience.item2.company",
     date: "experience.item2.date",
-    description: "experience.item2.description",
+    description1: "experience.item2.description1",
     actual: false,
   },
   {
@@ -122,7 +123,9 @@ export const EXPERIENCES = [
     position: "experience.item3.position",
     company: "experience.item3.company",
     date: "experience.item3.date",
-    description: "experience.item3.description",
+    description1: "experience.item3.description1",
+    description2: "experience.item3.description2",
+    description3: "experience.item3.description3",
     actual: false,
   },
 ];
@@ -145,6 +148,7 @@ export const sendIcon = (
 export const EDUCATION = [
   {
     id: 1,
+    type: "degree",
     title: "education.item1.title",
     center: "education.item1.center",
     date: "education.item1.date",
@@ -152,6 +156,7 @@ export const EDUCATION = [
   },
   {
     id: 2,
+    type: "school",
     title: "education.item2.title",
     center: "education.item2.center",
     date: "education.item2.date",
