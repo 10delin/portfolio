@@ -1,106 +1,108 @@
 {
-    "header":{
-        "name": "Antonio Delage Cruzado",
-        "experience": "Experiencia",
-        "about": "Sobre mí",
-        "projects": "Proyectos"
-    },
+  "header": {
+    "name": "Antonio Delage Cruzado",
+    "experience": "Experiencia",
+    "about": "Sobre mí",
+    "projects": "Proyectos"
+  },
 
-    "mainDescription":{
-        "subtitle": "DESARROLLADOR WEB FRONTEND",
-        "name": "Hola, soy Antonio Delage, contactame para crear",
-        "title": "Tu aplicación web con las mejores tecnologías.",
-        "sendMessage": "Enviar mensaje",
-        "worksTechnology": "Aptitudes tecnicas: ",
-        "modal":{
-            "title": "Enviar mensaje",
-            "subtitle": "Contacta conmigo",
-            "linkedin": "A traves de Linkedin",
-            "email": "A traves de Gmail"
-        }
-    },
-
-    "experience":{
-        "title":"Experiencia",
-        "item1":{
-            "position": "Desarrollador Frontend",
-            "company": "The WhiteTeam",
-            "date": "julio.2022 - Actualidad",
-            "description1":"- Creación de 2 páginas para el Banco HSBC UK utilizando ReactJs. Mejoré la experiencia del usuario con la implementación de React Query, Redux y React Router, lo que resultó en una interfaz de usuario más intuitiva y fácil de usar. Además, utilicé Sass y HTML para mejorar la apariencia y la estética de las páginas. La metodología SCRUM y la utilización de Git me permitieron trabajar de manera eficiente y entregar resultados constantes.",
-            "description2":"- En términos de rendimiento, la implementación de React Query resultó en un aumento del 40% en la velocidad de carga de datos y la implementación de Redux mejoró la consistencia de los datos en un 30%. La utilización de React Router también mejoró la navegación en un 20%. En general, estas mejoras contribuyeron a una experiencia de usuario más satisfactoria y un rendimiento general más alto."
-        },
-        "item2":{
-            "position": "Desarrollador Frontend Junior",
-            "company": "Digital Cuisine",
-            "date": "junio.2021 - junio.2022",
-            "description1":"- En mi primer proyecto de ReactJS, trabajé en el desarrollo de una aplicación utilizando React Hooks, Leaflet, HTML, CSS y Git, siguiendo una metodología Kanban. Fue una experiencia enriquecedora que me permitió mejorar mis habilidades en el desarrollo de aplicaciones con ReactJS y en la utilización de mapas interactivos con Leaflet."
-        },
-        "item3":{
-            "position": "Desarrollador Frontend Junior",
-            "company": "Digital Cuisine",
-            "date": "marzo.2021 - junio.2021",
-            "description1":"- Estos meses tuve la oportunidad de trabajar en la resolución de tickets relacionados con la funcionalidad de la aplicación. Esto incluyó tareas tanto de desarrollo de nuevas funciones como de solución de errores.",
-            "description2":"- Además de trabajar con VanillaJS, también utilizaba HTML y CSS para crear la interfaz de usuario y asegurar la consistencia visual en la aplicación. Por otro lado, utilizaba Git para llevar un control de versiones y colaborar con otros miembros del equipo en el desarrollo.",
-            "description3":"- Esta experiencia me permitió mejorar mis habilidades en el desarrollo de aplicaciones con VanillaJS y cómo integrar diferentes tecnologías como HTML, CSS y Git para crear una aplicación completa y efectiva. Además, aprendí a trabajar en un equipo y resolver problemas de manera eficiente."
-        }
-    },
-
-    "certificate": "Certificado en :",
-    "contributeGitHub" : "Puntualo en",
-
-    "about":{
-        "title": " Sobre mí",
-        "item1": "- Profesional del desarrollo de aplicaciones web especializado en el frontend con la biblioteca React JS. Me considero una persona proactiva, implicada y con muchas ganas de aprender.",
-        "item2": "- Actualmente estoy trabajando en el desarrollo de aplicaciones web con ReactJS y NodeJS. También estoy aprendiendo a utilizar la biblioteca NextJS para el desarrollo de aplicaciones web con SSR (Server Side Rendering).",
-        "item3": "- Otra de las tecnologias que estoy deseando aprender son TypeScript,  GraphQL y MongoDB. También me gustaría aprender a utilizar la biblioteca React Native para el desarrollo de aplicaciones móviles."
-    },
-
-    "education": {
-        "title": "Educación",
-        "item1": {
-            "title": "Grado Superior en Desarrollo de Aplicaciones Web",
-            "center": "I.E.S Mar de Cadiz(Puerto de Santa Maria)",
-            "date": "2018 - 2021"
-        },
-        "item2": {
-            "title": "Estudios de eduación secundaria (Bachillerato)",
-            "center": "Ntra Sña del Pilar (Jerez de la frontera)",
-            "date": "2012 - 2015"
-        }
-    },
- 
-    "projects": {
-        "title": "Proyectos",
-        "item1": {
-            "title": "Financial Assessment",
-            "subtitle": "The WhiteTeam - HSBC UK",
-            "description":"Modificacion de la pagina de calculo financiero del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
-            "link": "https://financialfitness.hsbc.co.uk/"
-
-        },
-        "item2": {
-            "title": "Sustanability Assessment",
-            "subtitle": "The WhiteTeam - HSBC UK",
-            "description":"Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
-            "link": "https://sustainabilityassessment.business.hsbc.com/en-gb/"
-        },
-        "item3": {
-            "title": "Corona Warn App",
-            "subtitle": "Digital Cuisine - Gobierno Aleman",
-            "description":"Modificacion de la pagina del Covid del Gobierno Aleman. Desarrollo de la aplicación con Javascript, HTML5, CSS3",
-            "link": "https://www.coronawarn.app/en/"
-        }
-    },
-
-    "footer":{
-        "title": "Antonio Delage",
-        "subtitle": "Página web de código abierto realizada con ReactJS.",
-        "link": "Link al repositorio en GitHub",
-        "contact":"Contáctame:",
-        "follow": "Sigueme en:"
+  "mainDescription": {
+    "subtitle": "DESARROLLADOR WEB FRONTEND",
+    "name": "Hola, soy Antonio Delage, contactame para crear",
+    "title": "Tu aplicación web con las mejores tecnologías.",
+    "sendMessage": "Enviar mensaje",
+    "worksTechnology": "Aptitudes tecnicas: ",
+    "modal": {
+      "title": "Enviar mensaje",
+      "subtitle": "Contacta conmigo",
+      "linkedin": "A traves de Linkedin",
+      "email": "A traves de Gmail"
     }
+  },
 
+  "experience": {
+    "title": "Experiencia",
+    "item1": {
+      "position": "Desarrollador Frontend",
+      "company": "Sectorea IT",
+      "date": "marzo.2023 - Actualidad",
+      "description1": "",
+      "description2": ""
+    },
+    "item2": {
+      "position": "Desarrollador React",
+      "company": "The WhiteTeam",
+      "date": "julio.2022 - marzo.2023",
+      "description1": "- Creación de 2 páginas para el Banco HSBC UK utilizando ReactJs. Mejoré la experiencia del usuario con la implementación de React Query, Redux y React Router, lo que resultó en una interfaz de usuario más intuitiva y fácil de usar. Además, utilicé Sass y HTML para mejorar la apariencia y la estética de las páginas. La metodología SCRUM y la utilización de Git me permitieron trabajar de manera eficiente y entregar resultados constantes.",
+      "description2": "- En términos de rendimiento, la implementación de React Query resultó en un aumento del 40% en la velocidad de carga de datos y la implementación de Redux mejoró la consistencia de los datos en un 30%. La utilización de React Router también mejoró la navegación en un 20%. En general, estas mejoras contribuyeron a una experiencia de usuario más satisfactoria y un rendimiento general más alto."
+    },
+    "item3": {
+      "position": "Desarrollador Frontend Junior",
+      "company": "Digital Cuisine",
+      "date": "junio.2021 - junio.2022",
+      "description1": "- En mi primer proyecto de ReactJS, trabajé en el desarrollo de una aplicación utilizando React Hooks, Leaflet, HTML, CSS y Git, siguiendo una metodología Kanban. Fue una experiencia enriquecedora que me permitió mejorar mis habilidades en el desarrollo de aplicaciones con ReactJS y en la utilización de mapas interactivos con Leaflet."
+    },
+    "item4": {
+      "position": "Desarrollador Frontend Junior",
+      "company": "Digital Cuisine",
+      "date": "marzo.2021 - junio.2021",
+      "description1": "- Estos meses tuve la oportunidad de trabajar en la resolución de tickets relacionados con la funcionalidad de la aplicación. Esto incluyó tareas tanto de desarrollo de nuevas funciones como de solución de errores.",
+      "description2": "- Además de trabajar con VanillaJS, también utilizaba HTML y CSS para crear la interfaz de usuario y asegurar la consistencia visual en la aplicación. Por otro lado, utilizaba Git para llevar un control de versiones y colaborar con otros miembros del equipo en el desarrollo.",
+      "description3": "- Esta experiencia me permitió mejorar mis habilidades en el desarrollo de aplicaciones con VanillaJS y cómo integrar diferentes tecnologías como HTML, CSS y Git para crear una aplicación completa y efectiva. Además, aprendí a trabajar en un equipo y resolver problemas de manera eficiente."
+    }
+  },
 
+  "certificate": "Certificado en :",
+  "contributeGitHub": "Puntualo en",
 
+  "about": {
+    "title": " Sobre mí",
+    "item1": "- Profesional del desarrollo de aplicaciones web especializado en el frontend con la biblioteca React JS. Me considero una persona proactiva, implicada y con muchas ganas de aprender.",
+    "item2": "- Actualmente estoy trabajando en el desarrollo de aplicaciones web con ReactJS y NodeJS. También estoy aprendiendo a utilizar la biblioteca NextJS para el desarrollo de aplicaciones web con SSR (Server Side Rendering).",
+    "item3": "- Otra de las tecnologias que estoy deseando aprender son TypeScript,  GraphQL y MongoDB. También me gustaría aprender a utilizar la biblioteca React Native para el desarrollo de aplicaciones móviles."
+  },
 
+  "education": {
+    "title": "Educación",
+    "item1": {
+      "title": "Grado Superior en Desarrollo de Aplicaciones Web",
+      "center": "I.E.S Mar de Cadiz(Puerto de Santa Maria)",
+      "date": "2018 - 2021"
+    },
+    "item2": {
+      "title": "Estudios de eduación secundaria (Bachillerato)",
+      "center": "Ntra Sña del Pilar (Jerez de la frontera)",
+      "date": "2012 - 2015"
+    }
+  },
+
+  "projects": {
+    "title": "Proyectos",
+    "item1": {
+      "title": "Financial Assessment",
+      "subtitle": "The WhiteTeam - HSBC UK",
+      "description": "Modificacion de la pagina de calculo financiero del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
+      "link": "https://financialfitness.hsbc.co.uk/"
+    },
+    "item2": {
+      "title": "Sustanability Assessment",
+      "subtitle": "The WhiteTeam - HSBC UK",
+      "description": "Creación de la página de sostenibilidad del banco HSBC UK. Desarrollo de la aplicación con ReactJS, HTML5, SASS",
+      "link": "https://sustainabilityassessment.business.hsbc.com/en-gb/"
+    },
+    "item3": {
+      "title": "Corona Warn App",
+      "subtitle": "Digital Cuisine - Gobierno Aleman",
+      "description": "Modificacion de la pagina del Covid del Gobierno Aleman. Desarrollo de la aplicación con Javascript, HTML5, CSS3",
+      "link": "https://www.coronawarn.app/en/"
+    }
+  },
+
+  "footer": {
+    "title": "Antonio Delage",
+    "subtitle": "Página web de código abierto realizada con ReactJS.",
+    "link": "Link al repositorio en GitHub",
+    "contact": "Contáctame:",
+    "follow": "Sigueme en:"
+  }
 }
