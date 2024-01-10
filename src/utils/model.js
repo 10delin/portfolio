@@ -12,6 +12,12 @@ export const iconWorks = [
     alt: "javascript",
   },
   {
+    id: 9,
+    icon: "https://img.icons8.com/color/48/000000/python.png",
+    title: "python",
+    alt: "python",
+  },
+  {
     id: 2,
     icon: "https://img.icons8.com/color/48/000000/react-native.png",
     title: "react",
@@ -52,18 +58,6 @@ export const iconWorks = [
     icon: "https://img.icons8.com/color/48/000000/git.png",
     title: "git",
     alt: "git",
-  },
-  {
-    id: 9,
-    icon: "https://img.icons8.com/color/48/000000/github--v1.png",
-    title: "github",
-    alt: "github",
-  },
-  {
-    id: 11,
-    icon: "https://img.icons8.com/color/48/000000/figma--v1.png",
-    title: "figma",
-    alt: "figma",
   },
 ];
 
@@ -107,7 +101,6 @@ export const EXPERIENCES = [
     company: "experience.item1.company",
     date: "experience.item1.date",
     description1: "experience.item1.description1",
-    description2: "experience.item1.description2",
     actual: true,
   },
   {
@@ -125,6 +118,10 @@ export const EXPERIENCES = [
     company: "experience.item3.company",
     date: "experience.item3.date",
     description1: "experience.item3.description1",
+    description2: "experience.item3.description2",
+    description3: "experience.item3.description3",
+    description4: "experience.item3.description4",
+    description5: "experience.item3.description5",
     actual: false,
   },
   {
@@ -135,6 +132,16 @@ export const EXPERIENCES = [
     description1: "experience.item4.description1",
     description2: "experience.item4.description2",
     description3: "experience.item4.description3",
+    actual: false,
+  },
+  {
+    id: 5,
+    position: "experience.item5.position",
+    company: "experience.item5.company",
+    date: "experience.item5.date",
+    description1: "experience.item5.description1",
+    description2: "experience.item5.description2",
+    description3: "experience.item5.description3",
     actual: false,
   },
 ];
