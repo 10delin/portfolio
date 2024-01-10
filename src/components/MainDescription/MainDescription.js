@@ -46,9 +46,9 @@ const MainDescription = ({ t }) => {
         </div>
       </div>
       <div className="main-description__works">
-        <p className="main-description__works__title">
+        {/* <p className="main-description__works__title">
           {t("mainDescription.worksTechnology")}
-        </p>
+        </p> */}
         <div className="main-description__works__content">
           <div className="main-description__works__content__item">
             {iconWorks.map((icon, index) => {

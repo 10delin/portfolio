@@ -2,7 +2,7 @@ const ContributeGithub = () => {
   return (
     <div className="contribute-github">
       <a
-        href="https://github.com/10delin/portfolio"
+        href="https://github.com/10delin/"
         target="_blank"
         rel="noreferrer"
       >

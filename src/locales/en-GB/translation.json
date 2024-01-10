@@ -21,27 +21,38 @@
   "experience": {
     "title": "Experience",
     "item1": {
-      "position": "Frontend Developer",
-      "company": "Sectorea IT",
-      "date": "March.2023 - Present",
-      "description1": "Development of web applications for BBVA bank. In this project I used litElement, JavaScript and CELLS to develop high quality and scalable UI components, participating in testing and debugging issues to ensure the quality of the final product. My experience in litElement and JavaScript has allowed me to acquire solid skills in creating reusable web components and developing dynamic interactions and impressive visual effects in the interface",
-      "description2": ""
+      "position": "Full Stack Developer",
+      "company": "Knowmad Mood - Remotely",
+      "date": "sept.2023 - Present",
+      "description1": "- In my project with the Roiback client, I specialize in transitioning from Django to React and on the back-end I use Python. On the front-end, I use React with the MVC pattern, migrating from JavaScript to TypeScript to optimize the quality and readability of the code."
     },
     "item2": {
-      "position": "React Developer",
-      "company": "The WhiteTeam",
-      "date": "July.2022 - March.2023",
-      "description1": "- Created 2 pages for HSBC UK Bank using ReactJs. I improved the user experience by implementing React Query, Redux and React Router, resulting in a more intuitive and user-friendly user interface. In addition, I used Sass and HTML to improve the look and feel of the pages. The SCRUM methodology and the use of Git allowed me to work efficiently and deliver consistent results.",
-      "description2": "- In terms of performance, implementing React Query resulted in a 40% increase in data load speed and implementing Redux improved data consistency by 30%. The use of React Router also improved navigation by 20%. Overall, these improvements contributed to a more satisfying user experience and higher overall performance."
+      "position": "Frontend Developer",
+      "company": "Sectorea IT - Remotely",
+      "date": "March.2023 - sept.2023",
+      "description1": "- During the first months I had the opportunity to practice with real projects at Banco Santander, receiving training in React from my company. This experience was fundamental in my professional development and allowed me to acquire solid skills in its use from React.",
+      "description2": "- On the other hand, in the web application development project for BBVA bank, I use litElement, JavaScript and CELLS to create high-quality and scalable UI components."
     },
     "item3": {
-      "position": "Junior Frontend Developer",
-      "company": "Digital Cuisine",
-      "date": "June.2021 - June.2022",
-      "description1": "- In my first ReactJS project, I worked on the development of an application using React Hooks, Leaflet, HTML, CSS and Git, following a Kanban methodology. It was an enriching experience that allowed me to improve my skills in application development with ReactJS and in the use of interactive maps with Leaflet."
+      "position": "React Developer",
+      "company": "The WhiteTeam - Remotely",
+      "date": "July.2022 - March.2023",
+      "description1":"- In the project for <b>HSBC UK Bank</b>, I created 2 pages using React. I improved the user experience by implementing React Query, Redux and React Router, which resulted in a more intuitive interface.", 
+      "description2":"- I used Sass and HTML to improve the look and feel",
+      "description3":"-Jest and Cypress were used to test the application.",
+      "description4": "- Followed SCRUM methodology and used Git to work efficiently and deliver consistent results.",
+      "description5":"- In terms of performance, the implementation of React Query resulted in a 40% increase in data load speed and the implementation of Redux improved data consistency by 30%. The use of React Router also improved navigation by 20%. Overall, these improvements contributed to a more satisfying user experience and higher overall performance."
     },
     "item4": {
-      "position": "Junior Frontend Developer",
+      "position": "Frontend Developer",
+      "company": "Digital Cuisine ",
+      "date": "June.2021 - June.2022",
+      "description1": "- First project with ReactJS where I developed an application with function-based React, React Hooks and Leaflet.",
+      "description2": "- I used HTML, CSS to improve the appearance and aesthetics.",
+      "description3": "- I followed the KANBAN methodology with Azure and used Git to work efficiently and deliver consistent results."
+    },
+    "item5": {
+      "position": "Frontend Developer",
       "company": "Digital Cuisine",
       "date": "March.2021 - June.2021",
       "description1": "- These months I had the opportunity to work on solving tickets related to the functionality of the application. This included both new feature development and bug fixing tasks.",
@@ -73,21 +84,21 @@
   "projects": {
     "title": "Projects",
     "item1": {
-      "title": "Financial Assessment",
-      "subtitle": "The White Team - HSBC UK",
-      "description": "Modification of the financial calculation page of the HSBC UK bank. Application development with ReactJS, HTML5, SASS",
+      "title": "Delin Open-AI",
+      "subtitle": "Personal project",
+      "description": "Smart chat app using React, UseLLM and Styled-Components, powered by secure authentication from Clerk. The app uses the OpenAI API to generate answers to user questions.",
       "link": "https://financialfitness.hsbc.co.uk/"
     },
     "item2": {
-      "title": "Sustainability Assessment",
-      "subtitle": "The White Team - HSBC UK",
-      "description": "Creation of the sustainability page of the bank HSBC UK. Application development with ReactJS, HTML5, SASS",
+      "title": "Luxestay Hotels",
+      "subtitle": "Knowmad Mood",
+      "description": "Technical test carried out in Knowmad mood. The test consisted of creating a page where the flow of reservations for a hotel could be seen. Libraries such as React, Redux Toolkit, styled-components, Formik are used in the project.",
       "link": "https://sustainabilityassessment.business.hsbc.com/en-gb/"
     },
     "item3": {
-      "title": "Corona Warn App",
-      "subtitle": "Digital Cuisine - German Government",
-      "description": "Modification of the German Government's Covid page. Application development with Javascript, HTML5, CSS3",
+      "title": "Cookie Clicker Game",
+      "subtitle": "Sectorea IT",
+      "description": "Technical test carried out in Sectorea. The test consisted of doing a click mini-game in 2 days. The project used technologies/libraries such as React, Redux Toolkit, i18n, Vite, Husky, styled-components and Cypress.",
       "link": "https://www.coronawarn.app/en/"
     }
   },
