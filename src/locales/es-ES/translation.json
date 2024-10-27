@@ -7,7 +7,7 @@
   },
 
   "mainDescription": {
-    "subtitle": "DESARROLLADOR WEB FRONTEND",
+    "subtitle": "FULL STACK DEVELOPER",
     "name": "Hola, soy Antonio Delage, contactame para crear",
     "title": "Tu aplicación web con las mejores tecnologías.",
     "sendMessage": "Enviar mensaje",
@@ -24,18 +24,24 @@
     "title": "Experiencia",
     "item1": {
       "position": "Full Stack Developer",
+      "company": "Roiback, Mallorca - En remoto",
+      "date": "sept.2024 - Actualidad",
+      "description1": ""
+    },
+    "item2": {
+      "position": "Full Stack Developer",
       "company": "Knowmad Mood, Jerez de la frontera - En remoto",
       "date": "sept.2023 - Actualidad",
       "description1": "-En mi proyecto con el cliente Roiback, me especializo en la transición de Django a React y en el back-end utilizo Python. En el front-end, empleo React con el patrón MVC, migrando de JavaScript a TypeScript para optimizar la calidad y legibilidad del código."
     },
-    "item2": {
+    "item3": {
       "position": "Frontend Developer",
       "company": "Sectorea IT, Madrid - En remoto",
       "date": "marzo.2023 - sept.2023",
       "description1": "- Durante los primeros meses, tuve la oportunidad de practicar con proyectos reales del banco Santander, recibiendo formación en React por parte de mi empresa. Esta experiencia fue fundamental en mi desarrollo profesional y me permitió adquirir habilidades sólidas en el uso de React. ",
       "description2": "- Por otro lado, en el proyecto de desarrollo de aplicaciones web para el banco BBVA, utilicé litElement, JavaScript y CELLS para crear componentes de UI de alta calidad y escalables."
     },
-    "item3": {
+    "item4": {
       "position": "React & Frontend Developer",
       "company": "The WhiteTeam, Madrid - En remoto",
       "date": "julio.2022 - marzo.2023",
@@ -45,7 +51,7 @@
       "description4": "-Seguí la metodología SCRUM y y utilicé Git para trabajar eficientemente y entregar resultados constantes.",
       "description5": "- En términos de rendimiento, la implementación de React Query resultó en un aumento del 40% en la velocidad de carga de datos y la implementación de Redux mejoró la consistencia de los datos en un 30%. La utilización de React Router también mejoró la navegación en un 20%. En general, estas mejoras contribuyeron a una experiencia de usuario más satisfactoria y un rendimiento general más alto."
     },
-    "item4": {
+    "item5": {
       "position": "Frontend Developer",
       "company": "Digital Cuisine, Jerez de la frontera",
       "date": "junio.2021 - junio.2022",
@@ -53,7 +59,7 @@
       "description2": "- Utilicé HTML , CSS para mejorar la apariencia y estética.",
       "description3": "- Seguí la metodología KANBAN con Azure y utilicé Git para trabajar eficientemente y entregar resultados constantes."
     },
-    "item5": {
+    "item6": {
       "position": "Frontend Developer",
       "company": "Digital Cuisine, Jerez de la frontera",
       "date": "marzo.2021 - junio.2021",

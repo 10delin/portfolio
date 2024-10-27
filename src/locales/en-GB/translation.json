@@ -6,7 +6,7 @@
     "projects": "Projects"
   },
   "mainDescription": {
-    "subtitle": "FRONTEND WEB DEVELOPER",
+    "subtitle": "FULL STACK DEVELOPER",
     "name": "Hello, I'm Antonio Delage, contact me to create",
     "title": "Your web application with best technologies.",
     "sendMessage": "Send Message",
@@ -22,18 +22,24 @@
     "title": "Experience",
     "item1": {
       "position": "Full Stack Developer",
+      "company": "Roiback - Remotely",
+      "date": "sept.2024 - Present",
+      "description1": ""
+    },
+    "item2": {
+      "position": "Full Stack Developer",
       "company": "Knowmad Mood - Remotely",
       "date": "sept.2023 - Present",
       "description1": "- In my project with the Roiback client, I specialize in transitioning from Django to React and on the back-end I use Python. On the front-end, I use React with the MVC pattern, migrating from JavaScript to TypeScript to optimize the quality and readability of the code."
     },
-    "item2": {
+    "item3": {
       "position": "Frontend Developer",
       "company": "Sectorea IT - Remotely",
       "date": "March.2023 - sept.2023",
       "description1": "- During the first months I had the opportunity to practice with real projects at Banco Santander, receiving training in React from my company. This experience was fundamental in my professional development and allowed me to acquire solid skills in its use from React.",
       "description2": "- On the other hand, in the web application development project for BBVA bank, I use litElement, JavaScript and CELLS to create high-quality and scalable UI components."
     },
-    "item3": {
+    "item4": {
       "position": "React Developer",
       "company": "The WhiteTeam - Remotely",
       "date": "July.2022 - March.2023",
@@ -43,7 +49,7 @@
       "description4": "- Followed SCRUM methodology and used Git to work efficiently and deliver consistent results.",
       "description5":"- In terms of performance, the implementation of React Query resulted in a 40% increase in data load speed and the implementation of Redux improved data consistency by 30%. The use of React Router also improved navigation by 20%. Overall, these improvements contributed to a more satisfying user experience and higher overall performance."
     },
-    "item4": {
+    "item5": {
       "position": "Frontend Developer",
       "company": "Digital Cuisine ",
       "date": "June.2021 - June.2022",
@@ -51,7 +57,7 @@
       "description2": "- I used HTML, CSS to improve the appearance and aesthetics.",
       "description3": "- I followed the KANBAN methodology with Azure and used Git to work efficiently and deliver consistent results."
     },
-    "item5": {
+    "item6": {
       "position": "Frontend Developer",
       "company": "Digital Cuisine",
       "date": "March.2021 - June.2021",

@@ -109,7 +109,6 @@ export const EXPERIENCES = [
     company: "experience.item2.company",
     date: "experience.item2.date",
     description1: "experience.item2.description1",
-    description2: "experience.item2.description2",
     actual: false,
   },
   {
@@ -119,9 +118,6 @@ export const EXPERIENCES = [
     date: "experience.item3.date",
     description1: "experience.item3.description1",
     description2: "experience.item3.description2",
-    description3: "experience.item3.description3",
-    description4: "experience.item3.description4",
-    description5: "experience.item3.description5",
     actual: false,
   },
   {
@@ -132,6 +128,8 @@ export const EXPERIENCES = [
     description1: "experience.item4.description1",
     description2: "experience.item4.description2",
     description3: "experience.item4.description3",
+    description4: "experience.item4.description4",
+    description5: "experience.item4.description5",
     actual: false,
   },
   {
@@ -142,6 +140,16 @@ export const EXPERIENCES = [
     description1: "experience.item5.description1",
     description2: "experience.item5.description2",
     description3: "experience.item5.description3",
+    actual: false,
+  },
+  {
+    id: 6,
+    position: "experience.item6.position",
+    company: "experience.item6.company",
+    date: "experience.item6.date",
+    description1: "experience.item6.description1",
+    description2: "experience.item6.description2",
+    description3: "experience.item6.description3",
     actual: false,
   },
 ];
